@@ -1,0 +1,471 @@
+:root {
+    --FFFFFF: #FFFFFF;
+    --FF6C00: #FF6C00;
+    --303030: #303030;
+    --rgba15716418906: rgba(157, 164, 189, 0.6);
+    --9DA4BD: #9DA4BD;
+    --555555: #555555;
+    --F7F7F7: #F7F7F7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: cadetblue;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--FFFFFF);
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+/* -------------------------Header---------------------- */
+
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-link,
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--FFFFFF);
+
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--FF6C00);
+}
+
+
+.header-btn {
+    color: var(--FFFFFF);
+}
+
+/* ---------------------------Hero-------------------- */
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--303030);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--FF6C00);
+}
+
+.hero-contant {
+    padding: 172px 100px 198px;
+
+}
+
+.hero-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--rgba15716418906);
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--FFFFFF);
+    margin-bottom: 20px;
+}
+
+.hero-second-text {
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: var(--9DA4BD);
+    margin-bottom: 20px;
+    max-width: 360px;
+}
+
+
+/* ---------------------------About-------------------- */
+
+.about-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--303030);
+    margin-bottom: 20px;
+}
+
+.about-titel {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--303030);
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--555555);
+    margin-bottom: 20px;
+}
+
+.about-bottom-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--555555);
+    margin-bottom: 42px;
+}
+
+.abou-btn {
+    color: var(--303030);
+}
+
+/* ---------------------------Prices-------------------- */
+
+.prices-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--rgba15716418906);
+    padding-bottom: 20px;
+}
+
+.prices-titel {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--FFFFFF);
+    padding-bottom: 44px;
+}
+
+.prices-list {
+    border: 1px solid black;
+    padding: 30px 20px;
+
+}
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--9DA4BD);
+}
+
+.prices-btn {
+    color: var(--FFFFFF);
+    margin-top: 44px;
+    display: block;
+    margin: 44px auto 0px;
+}
+
+/* ---------------------------Benefits-------------------- */
+
+.benefits {
+    margin-top: 75px;
+    margin-bottom: 165px;
+}
+
+.benefits-list span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--303030);
+    display: block;
+}
+
+.benefits-item {
+    width: 170px;
+    height: 133px;
+    padding: 20px 24px;
+    background-color: var(--F7F7F7);
+    border: 1px solid black;
+
+}
+
+.benefits-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--303030);
+}
+
+.benefits-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--303030);
+    margin-bottom: 20px;
+}
+
+.benefits-titel {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--303030);
+    margin-bottom: 20px;
+}
+
+.benefits-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--555555);
+    margin-bottom: 20px;
+}
+
+/* ---------------------------Team-------------------- */
+
+.team-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--303030);
+    margin-bottom: 20px;
+}
+
+.team-titel {
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--303030);
+    margin-bottom: 44px;
+}
+
+.team-item-box {
+    padding-top: 30px;
+}
+
+.team-item-titel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--303030);
+    margin-bottom: 8px;
+
+}
+
+.team-item-text {
+    font-size: 14px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--FF6C00);
+    margin-bottom: 30px;
+}
+
+.team-soc-item {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--FFFFFF);
+}
+
+/* ---------------------------Gallery-------------------- */
+
+.gallery-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--303030);
+    margin-bottom: 44px;
+}
+
+/* ---------------------------Online-------------------- */
+
+.online {
+    padding: 130px 30px 187px 215px;
+}
+
+.online-titel {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: var(--FFFFFF);
+    margin-bottom: 44px;
+}
+
+.online-btn {
+    color: var(--FFFFFF);
+}
+
+
+/* ---------------------------Contacts-------------------- */
+
+.contacts {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.contacts-titel {
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--FFFFFF);
+    margin-bottom: 40px;
+}
+
+.contacts-address {
+    font-style: normal;
+    margin-bottom: 70px;
+}
+
+.contacts-address-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--9DA4BD);
+}
+
+.contacts-address-tel {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--9DA4BD);
+}
+
+.contacts-address-mail {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #9DA4BD;
+}
+
+.contacts-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--FFFFFF);
+    margin-bottom: 20px;
+}
+
+.contacts-bottom-text,
+.contacts-bottom-time {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--9DA4BD);
+}
+
+/* ---------------------------Footer-------------------- */
+
+.footer-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--9DA4BD);
+}
+
+.footer-item-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--303030);
+}
+
+.footer-item-link:hover,
+.footer-item-link:focus {
+    color: var(--FF6C00);
+}
